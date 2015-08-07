@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+// multiple arguments using arguments.callee
+var myFunc = function (param) {
+	var f = arguments.callee,
+			result;
+	if (!f.cache[param]) {
+		result = {};
+		// ... expensive operation ...
+		f.cache[param] = result;
+	}
+	return f.cache[param];
+};
+// cache storage
+myFunc.cache = {};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>func</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>use function properties to avoid repeated computation</description>
+</snippet>

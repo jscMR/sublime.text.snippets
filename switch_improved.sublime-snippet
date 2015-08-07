@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+var inspect_me = 0,result = '';
+
+switch (inspect_me) {
+	case 0:
+		result = "zero";
+		break;
+	case 1:
+		result = "one";
+		break;
+	default:
+		result = "unknown";
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>switch</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>improve the readability and robustness of your switch statements</description>
+</snippet>

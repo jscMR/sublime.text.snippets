@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+var i,hasOwn = Object.prototype.hasOwnProperty;
+
+for (i in man) {
+	if (hasOwn.call(man, i)) { // filter
+		console.log(i, ":", man[i]);
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>forin</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>optimized for-in loops</description>
+</snippet>

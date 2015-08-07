@@ -1,0 +1,37 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"CloseCommentTag",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"Github Color Theme",
+		"Github Tools",
+		"GitStatus",
+		"Jade",
+		"Javascript Beautify",
+		"JavaScript Snippets",
+		"JavaScript Ultimate",
+		"JsFormat",
+		"JSHint Gutter",
+		"JSHint Inline",
+		"Markdown Preview",
+		"Package Control",
+		"SublimeEnhancedUtilitiesSet",
+		"SublimeLinter",
+		"SublimeREPL",
+		"Terminal",
+		"Theme - Centurion",
+		"Theme - Cyanide",
+		"Theme - Phoenix",
+		"Theme - Spacegray",
+		"Trimmer"
+	]
+}

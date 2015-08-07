@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+var i = 0,max,myarray = [];
+for (i = 0, max = myarray.length; i < max; i += 1) {
+	// do something with myarray[i]
+}
+    ]]></content>
+    <tabTrigger>fl</tabTrigger>
+    <scope>source.js</scope>
+    <description>for … loop improved Jorge</description>
+</snippet>

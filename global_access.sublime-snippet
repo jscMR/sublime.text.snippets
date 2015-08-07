@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+// access to the Global Object
+// this should work in ES3, ES5 and ES5-strict.
+var global = (function () {
+	return this || (1, eval)('this');
+}());
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>glob</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>access the global object without hard-coding the identifier window</description>
+</snippet>

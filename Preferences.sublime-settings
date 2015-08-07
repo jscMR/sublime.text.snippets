@@ -1,0 +1,14 @@
+{
+	"color_scheme": "Packages/Github Color Theme/GitHub.tmTheme",
+	"enable_tab_scrolling": false,
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage",
+		"JavaScript"
+	],
+	"spacegray_sidebar_font_large": true,
+	"spacegray_tabs_font_small": true,
+	"spacegray_tabs_normal": true,
+	"theme": "Spacegray Light.sublime-theme"
+}
